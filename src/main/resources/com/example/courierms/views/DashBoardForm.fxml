@@ -23,7 +23,7 @@
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../asserts/icons8-contact-details-100.png" />
+                        <Image url="@../assets/icons8-contact-details-100.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -46,7 +46,7 @@
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../asserts/icons8-add-user-male-100.png" />
+                        <Image url="@../assets/icons8-add-user-male-100.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -61,7 +61,7 @@
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../asserts/icons8-feedback-100.png" />
+                        <Image url="@../assets/icons8-feedback-100.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -76,7 +76,7 @@
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../asserts/icons8-u-turn-to-left-100.png" />
+                        <Image url="@../assets/icons8-u-turn-to-left-100.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -99,7 +99,7 @@
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../asserts/icons8-account-100.png" />
+                        <Image url="@../assets/icons8-account-100.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -120,7 +120,7 @@
             </JFXButton>
             <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="21.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../asserts/udara-san.jpg" />
+                  <Image url="@../assets/profile.jpg" />
                </image>
                <effect>
                   <DropShadow />
@@ -136,7 +136,7 @@
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../asserts/icons8-feedback-100.png" />
+                        <Image url="@../assets/icons8-feedback-100.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -151,7 +151,7 @@
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" opacity="0.64" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../asserts/icons8-search-64.png" />
+                        <Image url="@../assets/icons8-search-64.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -174,7 +174,7 @@
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../asserts/icons8-crowd-100.png" />
+                        <Image url="@../assets/icons8-crowd-100.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -198,7 +198,7 @@
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../asserts/icons8-feedback-100.png" />
+                        <Image url="@../assets/icons8-feedback-100.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -232,7 +232,7 @@
          <children>
             <ImageView fitHeight="42.0" fitWidth="36.0" layoutX="1543.0" layoutY="27.0" onMouseClicked="#logOutOnAction" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../asserts/logout.png" />
+                  <Image url="@../assets/logout.png" />
                </image>
                <effect>
                   <DropShadow height="0.0" radius="0.0" width="0.0" />
@@ -243,7 +243,7 @@
             </ImageView>
             <ImageView fitHeight="60.0" fitWidth="70.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../asserts/0.png" />
+                  <Image url="@../assets/0.png" />
                </image>
             </ImageView>
             <Label layoutX="74.0" layoutY="19.0" prefHeight="42.0" prefWidth="208.0" text="DeliverMe(PVT)Ltd">

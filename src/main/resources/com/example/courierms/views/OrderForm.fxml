@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" prefHeight="640.0" prefWidth="1241.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderFormController">
+<AnchorPane fx:id="root" prefHeight="640.0" prefWidth="1241.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courierms.controller.OrderFormController">
    <children>
       <Label layoutX="14.0" layoutY="14.0" text="OrderForm">
          <font>
@@ -20,12 +20,12 @@
       <Pane layoutX="33.0" layoutY="66.0" prefHeight="474.0" prefWidth="559.0" style="-fx-border-color: #0088ff; -fx-border-radius: 15px;">
          <children>
             <JFXComboBox fx:id="cmbCID" editable="true" layoutX="18.0" layoutY="68.0" onAction="#selectCIDOnAction" prefHeight="32.0" prefWidth="143.0" promptText="Customer ID" />
-            <Label layoutX="15.0" layoutY="35.0" text="Customer Infomation &gt;">
+            <Label layoutX="15.0" layoutY="35.0" text="Customer Information &gt;">
                <font>
                   <Font name="SansSerif Bold" size="14.0" />
                </font>
             </Label>
-            <Label layoutX="15.0" layoutY="127.0" text="Order Infomation &gt;">
+            <Label layoutX="15.0" layoutY="127.0" text="Order Information &gt;">
                <font>
                   <Font name="SansSerif Bold" size="14.0" />
                </font>
@@ -34,7 +34,7 @@
             <TextField fx:id="txtHeight" layoutX="14.0" layoutY="254.0" prefHeight="32.0" prefWidth="83.0" promptText="Height" />
             <TextField fx:id="txtWidth" layoutX="112.0" layoutY="254.0" prefHeight="32.0" prefWidth="83.0" promptText="Width" />
             <TextField fx:id="txtLength" layoutX="212.0" layoutY="254.0" prefHeight="32.0" prefWidth="83.0" promptText="length" />
-            <Label layoutX="18.0" layoutY="325.0" text="Payment Infomation &gt;">
+            <Label layoutX="18.0" layoutY="325.0" text="Payment Information &gt;">
                <font>
                   <Font name="SansSerif Bold" size="14.0" />
                </font>
@@ -56,7 +56,7 @@
                   <Font name="SansSerif Bold" size="14.0" />
                </font>
             </JFXButton>
-            <ComboBox fx:id="cmbPType" layoutX="14.0" layoutY="163.0" prefWidth="150.0" promptText="Pacakge type" />
+            <ComboBox fx:id="cmbPType" layoutX="14.0" layoutY="163.0" prefWidth="150.0" promptText="Package type" />
             <ComboBox fx:id="cmbPayType" layoutX="20.0" layoutY="426.0" prefHeight="25.0" prefWidth="150.0" promptText="Payment Type" />
          </children>
       </Pane>
@@ -66,9 +66,9 @@
             <TextField fx:id="txtTelephoneNo" layoutX="34.0" layoutY="223.0" prefHeight="32.0" prefWidth="173.0" promptText="Telephone No" />
             <TextField fx:id="txtAddress" layoutX="34.0" layoutY="272.0" prefHeight="32.0" prefWidth="275.0" promptText="Address" />
             <DatePicker fx:id="txtDate" layoutX="36.0" layoutY="322.0" prefHeight="32.0" prefWidth="131.0" />
-            <TextField fx:id="cmbOrderAction" layoutX="201.0" layoutY="322.0" prefHeight="32.0" prefWidth="108.0" promptText="Accespted" text="Accepted" />
-            <TextField fx:id="txtDID" editable="false" layoutX="34.0" layoutY="77.0" prefHeight="32.0" prefWidth="173.0" promptText="Dilivery ID" text="D005" />
-            <Label layoutX="25.0" layoutY="39.0" text="Delivery Infomation &gt;">
+            <TextField fx:id="cmbOrderAction" layoutX="201.0" layoutY="322.0" prefHeight="32.0" prefWidth="108.0" promptText="Accepted" text="Accepted" />
+            <TextField fx:id="txtDID" editable="false" layoutX="34.0" layoutY="77.0" prefHeight="32.0" prefWidth="173.0" promptText="Delivery ID" text="D005" />
+            <Label layoutX="25.0" layoutY="39.0" text="Delivery Information &gt;">
                <font>
                   <Font name="SansSerif Bold" size="14.0" />
                </font>

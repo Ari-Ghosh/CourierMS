@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #d1f3ff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFormController">
+<AnchorPane fx:id="root" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #d1f3ff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courierms.controller.MainFormController">
    <children>
       <Pane layoutX="223.0" layoutY="163.0" prefHeight="448.0" prefWidth="791.0" style="-fx-background-color: white; -fx-background-radius: 25px;">
          <effect>
@@ -47,7 +47,7 @@
                <children>
                   <ImageView fitHeight="251.0" fitWidth="423.0" layoutX="15.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../asserts/loginformimage.png" />
+                        <Image url="@../assets/loginformimage.png" />
                      </image>
                      <effect>
                         <DropShadow height="0.0" radius="16.665" width="68.66" />

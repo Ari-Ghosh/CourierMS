@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="640.0" prefWidth="1241.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MessageFormController">
+<AnchorPane prefHeight="640.0" prefWidth="1241.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courierms.controller.MessageFormController">
    <children>
       <JFXTextField fx:id="txtMsgId" layoutX="27.0" layoutY="44.0" prefHeight="26.0" prefWidth="105.0" />
       <TextArea fx:id="txtMessageBox" layoutX="27.0" layoutY="93.0" prefHeight="171.0" prefWidth="726.0" wrapText="true" />
