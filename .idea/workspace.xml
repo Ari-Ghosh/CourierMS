@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2fb3baf-b85f-42d8-8a90-210e953e7c75" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMS DataBase.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/BOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/SuperBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/custom/BillDetailsBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/custom/CustomerBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/custom/DeliveryDetailsBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/custom/EmployeeBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/custom/MessageBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/custom/PlaceOrderBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/custom/ReturnBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/custom/impl/BillDetailsBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/custom/impl/CustomerBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/custom/impl/DeliveryDetailsBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/custom/impl/EmployeeBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/custom/impl/MessageBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/custom/impl/PlaceOrderBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/bo/custom/impl/ReturnBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/CustomerFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/DashBoardFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/DefaultFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/DeliveryFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/EmployeeFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/MainFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/MessageFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/OrderFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/ReportFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/ReturnFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/TrackingFromController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/CrudDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/CrudUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/DAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/QueryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/SuperDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/BillDetailsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/DeliveryDetailsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/MessageDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/ReturnDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/BillDetailsDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/CustomerDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/DeliveryDetailsDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/MessageDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/ReturnDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/db/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dto/BillDetailsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dto/CustomDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dto/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dto/DeliveryDetailsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dto/EmployeeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dto/MessageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dto/ReturnDetailsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/entity/BillDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/entity/DeliveryDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/entity/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/entity/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/entity/ReturnDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/main/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/6447.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-account-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-add-reminder-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-add-user-male-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-back-to-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-bell-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-contact-details-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-crowd-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-currency-exchange-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-export-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-feedback-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-gear-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-in-transit-64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-ok-64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-plus-64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-refresh-80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-remove-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-search-64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-successful-delivery-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-u-turn-to-left-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/icons8-upload-to-the-cloud-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/loginformimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/online.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/udara-san.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/CR.jasper" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/CR.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/CustomerR.jasper" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/CustomerR.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/Invoice.jasper" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/Invoice.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/invoice_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/order.jasper" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/order.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/yu.jasper" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/yu.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/CustomerForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/DashBoardForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/DefaultForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/DeliveryForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/EmployeeForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/MainForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/MessageForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/OrderForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/ReportForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/ReturnForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/TrackingFrom.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2XVybr8AY1sNSn9zhJCSBSrbxhq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Program Files/Java/jasperlib",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="AppInitializer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.courierms.main.AppInitializer" />
+      <module name="CourierMS" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-21.0.1\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2fb3baf-b85f-42d8-8a90-210e953e7c75" name="Changes" comment="" />
+      <created>1698728618897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698728618897</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
