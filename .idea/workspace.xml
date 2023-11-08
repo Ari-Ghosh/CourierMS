@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2fb3baf-b85f-42d8-8a90-210e953e7c75" name="Changes" comment="Project Initialization">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/udara-san.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/assets/profile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/DashBoardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/DashBoardForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/DefaultForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/DefaultForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/DeliveryForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/DeliveryForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/EmployeeForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/EmployeeForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/MainForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/MainForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/MessageForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/MessageForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/OrderForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/OrderForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/ReportForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/ReportForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/ReturnForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/ReturnForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/TrackingFrom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/TrackingFrom.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/invoice_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/invoice_logo.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +20,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2XVybr8AY1sNSn9zhJCSBSrbxhq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Program Files/Java/jasperlib",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
