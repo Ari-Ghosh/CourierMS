@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2fb3baf-b85f-42d8-8a90-210e953e7c75" name="Changes" comment="Project Initialization">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/invoice_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/report/invoice_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/main/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/main/AppInitializer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +36,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Program Files/Java/jasperlib",
+    "last_opened_file_path": "D:/CODES/COLLEGE PROJECTS/courier-management-system",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODES\COLLEGE PROJECTS\CourierMS\src\main\resources\com\example\courierms\views" />
+      <recent name="D:\CODES\COLLEGE PROJECTS\CourierMS\src\main\resources\com\example\courierms" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.courierms" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="AppInitializer" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.courierms.main.AppInitializer" />
