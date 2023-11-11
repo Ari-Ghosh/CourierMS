@@ -98,7 +98,7 @@ public class OrderFormController {
         root.getChildren().clear();
         root.getChildren().add(FXMLLoader.
                 load(Objects.requireNonNull(this.getClass().
-                        getResource("view/CustomerForm.fxml"))));
+                        getResource("/com/example/courierms/view/CustomerForm.fxml"))));
 
 
     }
@@ -242,7 +242,7 @@ public class OrderFormController {
 
     public void printOnAction(ActionEvent actionEvent) {
         try {
-            InputStream is=this.getClass().getResourceAsStream("report/yu.jrxml");
+            InputStream is=this.getClass().getResourceAsStream("/com/example/courierms/report/yu.jrxml");
             JasperReport jr=JasperCompileManager.compileReport(is);
 
             HashMap hs=new HashMap();

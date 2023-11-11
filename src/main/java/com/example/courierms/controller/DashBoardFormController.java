@@ -62,7 +62,7 @@ public class DashBoardFormController {
         context.getChildren().clear();
         context.getChildren().add(FXMLLoader.
                 load(Objects.requireNonNull(this.getClass().
-                        getResource("view/" + location + ".fxml"))));
+                        getResource("/com/example/courierms/view/" + location + ".fxml"))));
     }
 
     public void dashBoardOnAction(ActionEvent actionEvent) throws IOException {
@@ -103,7 +103,7 @@ public class DashBoardFormController {
     public void logOutOnAction(MouseEvent mouseEvent) throws IOException {
         Stage window = (Stage) this.dashBordRoot.getScene().getWindow();
         window.setScene(new Scene(FXMLLoader.load(Objects.requireNonNull(this.getClass()
-                .getResource("view/MainForm.fxml")))));
+                .getResource("/com/example/courierms/view/MainForm.fxml")))));
         window.centerOnScreen();
     }
 

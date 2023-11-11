@@ -31,7 +31,7 @@ public class MainFormController {
 
                 Stage window = (Stage) this.root.getScene().getWindow();
                 window.setScene(new Scene(FXMLLoader.load(Objects.requireNonNull(this.getClass()
-                        .getResource("view/DashBoardForm.fxml")))));
+                        .getResource("/com/example/courierms/view/DashBoardForm.fxml")))));
                 window.centerOnScreen();
 
 
@@ -39,7 +39,7 @@ public class MainFormController {
                     && password.equals(getPassword2)) {
                 Stage window = (Stage) this.root.getScene().getWindow();
                 window.setScene(new Scene(FXMLLoader.load(Objects.requireNonNull(this.getClass()
-                        .getResource("view/DashBoardForm.fxml")))));
+                        .getResource("/com/example/courierms/view/DashBoardForm.fxml")))));
                 window.centerOnScreen();
                 /*End mLogin */
             } else {

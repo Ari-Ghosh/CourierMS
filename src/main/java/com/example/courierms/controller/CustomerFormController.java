@@ -157,7 +157,7 @@ public class CustomerFormController {
 
     public void printOnAction(ActionEvent actionEvent) {
         try {
-            InputStream is=this.getClass().getResourceAsStream("report/CR.jrxml");
+            InputStream is=this.getClass().getResourceAsStream("/com/example/courierms/report/CR.jrxml");
             JasperReport jr= JasperCompileManager.compileReport(is);
             JasperPrint js= JasperFillManager.fillReport(jr,null, DBConnection.getInstance().getConnection());
             JasperViewer.viewReport(js);

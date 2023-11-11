@@ -18,11 +18,11 @@ public class AppInitializer extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
 
-        FXMLLoader fxmlLoader = new FXMLLoader(AppInitializer.class.getResource("view/MainForm.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(AppInitializer.class.getResource("/com/example/courierms/view/MainForm.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         primaryStage.setTitle("Courier Management System");
-        primaryStage.setScene(scene);
         primaryStage.show();
+        primaryStage.setScene(scene);
     }
 }
 
