@@ -57,7 +57,7 @@
             </Pane>
          </children>
       </Pane>
-      <Label layoutX="553.0" layoutY="636.0" text="Copyrights @ Udara San" />
+      <Label layoutX="553.0" layoutY="636.0" text="Copyrights @ Arijit Ghosh" />
       <Label layoutX="392.0" layoutY="50.0" opacity="0.85" text="DeliverMe (PVT)ltd">
          <font>
             <Font name="SansSerif Bold" size="51.0" />

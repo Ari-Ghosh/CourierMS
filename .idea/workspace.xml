@@ -6,7 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="c2fb3baf-b85f-42d8-8a90-210e953e7c75" name="Changes" comment="Project Initialization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/CustomerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/CustomerFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/DashBoardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/DashBoardFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/MainFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/MainFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/db/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/db/DBConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/main/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/main/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/CustomerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/CustomerForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/DashBoardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/DashBoardForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/DefaultForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/DefaultForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/DeliveryForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/DeliveryForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/EmployeeForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/EmployeeForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/MainForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/MainForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/MessageForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/MessageForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/OrderForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/OrderForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/ReportForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/ReportForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/ReturnForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/ReturnForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/views/TrackingFrom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/TrackingFrom.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +51,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/CODES/COLLEGE PROJECTS/courier-management-system",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/CODES/COLLEGE PROJECTS/Courier_Management_System",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -71,6 +87,17 @@
       <updated>1698728618897</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

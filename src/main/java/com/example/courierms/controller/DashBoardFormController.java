@@ -21,6 +21,7 @@ import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Objects;
 
 public class DashBoardFormController {
 
@@ -60,9 +61,8 @@ public class DashBoardFormController {
     private void setUi(String location) throws IOException {
         context.getChildren().clear();
         context.getChildren().add(FXMLLoader.
-                load(this.getClass().
-                        getResource("../../../../../resources/com/example/courierms/view/" + location +
-                                ".fxml")));
+                load(Objects.requireNonNull(this.getClass().
+                        getResource("view/" + location + ".fxml"))));
     }
 
     public void dashBoardOnAction(ActionEvent actionEvent) throws IOException {
@@ -102,8 +102,8 @@ public class DashBoardFormController {
     }
     public void logOutOnAction(MouseEvent mouseEvent) throws IOException {
         Stage window = (Stage) this.dashBordRoot.getScene().getWindow();
-        window.setScene(new Scene(FXMLLoader.load(this.getClass()
-                .getResource("../../../../../resources/com/example/courierms/view/MainForm.fxml"))));
+        window.setScene(new Scene(FXMLLoader.load(Objects.requireNonNull(this.getClass()
+                .getResource("view/MainForm.fxml")))));
         window.centerOnScreen();
     }
 
