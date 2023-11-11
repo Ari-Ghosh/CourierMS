@@ -21,6 +21,7 @@ import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
+import java.util.Objects;
 
 public class OrderFormController {
     public JFXComboBox cmbCID;
@@ -96,8 +97,8 @@ public class OrderFormController {
     public void newCustomerOnAction(ActionEvent actionEvent) throws IOException {
         root.getChildren().clear();
         root.getChildren().add(FXMLLoader.
-                load(this.getClass().
-                        getResource("../../../../../resources/com/example/courierms/view/CustomerForm.fxml")));
+                load(Objects.requireNonNull(this.getClass().
+                        getResource("view/CustomerForm.fxml"))));
 
 
     }
@@ -241,7 +242,7 @@ public class OrderFormController {
 
     public void printOnAction(ActionEvent actionEvent) {
         try {
-            InputStream is=this.getClass().getResourceAsStream("/report/yu.jrxml");
+            InputStream is=this.getClass().getResourceAsStream("report/yu.jrxml");
             JasperReport jr=JasperCompileManager.compileReport(is);
 
             HashMap hs=new HashMap();
