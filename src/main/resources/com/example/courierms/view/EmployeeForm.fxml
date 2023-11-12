@@ -55,12 +55,12 @@
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
-            <TextField fx:id="txtEID" focusColor="SPRINGGREEN" labelFloat="true" layoutX="18.0" layoutY="19.0" onAction="#eidOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Customer ID" />
-            <TextField fx:id="txtFirstName" focusColor="SPRINGGREEN" labelFloat="true" layoutX="18.0" layoutY="69.0" onAction="#fNameOnAction" prefHeight="22.0" prefWidth="268.0" promptText="FirstName" />
-            <TextField fx:id="txtSecondName" focusColor="SPRINGGREEN" labelFloat="true" layoutX="18.0" layoutY="129.0" onAction="#sNameOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Second Name" />
-            <TextField fx:id="txtTelephoneNo" focusColor="SPRINGGREEN" labelFloat="true" layoutX="317.0" layoutY="19.0" onAction="#tpOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Telphone No" />
-            <TextField fx:id="txtAddress" focusColor="SPRINGGREEN" labelFloat="true" layoutX="317.0" layoutY="71.0" onAction="#addressOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Address" />
-            <TextField fx:id="txtEmail" focusColor="SPRINGGREEN" labelFloat="true" layoutX="317.0" layoutY="129.0" prefHeight="22.0" prefWidth="268.0" promptText="Email" />
+            <TextField fx:id="txtEID" style="-fx-focus-color: springgreen;" layoutX="18.0" layoutY="19.0" onAction="#eidOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Customer ID" />
+            <TextField fx:id="txtFirstName" style="-fx-focus-color: springgreen;" layoutX="18.0" layoutY="69.0" onAction="#fNameOnAction" prefHeight="22.0" prefWidth="268.0" promptText="FirstName" />
+            <TextField fx:id="txtSecondName" style="-fx-focus-color: springgreen;" layoutX="18.0" layoutY="129.0" onAction="#sNameOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Second Name" />
+            <TextField fx:id="txtTelephoneNo" style="-fx-focus-color: springgreen;" layoutX="317.0" layoutY="19.0" onAction="#tpOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Telphone No" />
+            <TextField fx:id="txtAddress" style="-fx-focus-color: springgreen;" layoutX="317.0" layoutY="71.0" onAction="#addressOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Address" />
+            <TextField fx:id="txtEmail" style="-fx-focus-color: springgreen;" layoutX="317.0" layoutY="129.0" prefHeight="22.0" prefWidth="268.0" promptText="Email" />
          </children>
       </Pane>
       <Pane layoutX="24.0" layoutY="240.0" prefHeight="390.0" prefWidth="1210.0">
