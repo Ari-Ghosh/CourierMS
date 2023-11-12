@@ -5,34 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2fb3baf-b85f-42d8-8a90-210e953e7c75" name="Changes" comment="View Changes">
-      <change afterPath="$PROJECT_DIR$/jasperlib/commons-beanutils-1.9.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/commons-collections-3.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/commons-collections4-4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/commons-digester-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/ecj-3.21.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/jackson-annotations-2.14.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/jackson-core-2.14.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/jackson-databind-2.14.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/jackson-dataformat-xml-2.14.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/jasperreports-6.20.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/jcommon-1.0.23.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/jfreechart-1.0.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/openpdf-1.3.30.jaspersoft.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/stax2-api-4.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasperlib/woodstox-core-6.4.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/CustomerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/CustomerFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/DashBoardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/DashBoardFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/DefaultFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/DefaultFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/DeliveryFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/DeliveryFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/EmployeeFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/EmployeeFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/MainFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/MainFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/MessageFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/MessageFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/OrderFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/OrderFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/TrackingFromController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/TrackingFromController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/MainForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/MainForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/commons-beanutils-1.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/commons-collections4-4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/commons-digester-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/ecj-3.21.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/jackson-annotations-2.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/jackson-core-2.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/jackson-databind-2.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/jackson-dataformat-xml-2.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/jasperreports-6.20.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/jcommon-1.0.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/jfreechart-1.0.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/openpdf-1.3.30.jaspersoft.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/stax2-api-4.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jasperlib/woodstox-core-6.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/DashBoardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/DashBoardForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +66,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.32413793",
     "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
@@ -94,7 +84,7 @@
     <configuration name="AppInitializer" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.courierms.main.AppInitializer" />
       <module name="CourierMS" />
-      <option name="VM_PARAMETERS" value="--module-path /path/to/JavaFX/lib --add-modules=javafx.controls" />
+      <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/lib/javafx-sdk-21.0.1/lib --add-modules=javafx.controls" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.JFXButton?>
-<?import com.jfoenix.controls.JFXTextField?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -19,8 +16,8 @@
             <Font name="SansSerif Bold" size="18.0" />
          </font>
       </Label>
-      <JFXTextField fx:id="txtDID" labelFloat="true" layoutX="371.0" layoutY="147.0" prefHeight="26.0" prefWidth="363.0" promptText="Type Your DeliveryID" />
-      <JFXButton buttonType="RAISED" layoutX="756.0" layoutY="142.0" onAction="#btnTrackOnAction" prefHeight="38.0" prefWidth="114.0" style="-fx-background-color: #0088ff;" text="Track" textFill="WHITE">
+      <TextField fx:id="txtDID" layoutX="371.0" layoutY="147.0" prefHeight="26.0" prefWidth="363.0" promptText="Type Your DeliveryID" />
+      <Button layoutX="756.0" layoutY="142.0" onAction="#btnTrackOnAction" prefHeight="38.0" prefWidth="114.0" style="-fx-background-color: #0088ff; -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Track" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
@@ -31,7 +28,7 @@
                   <Stop color="WHITE" offset="1.0" />
                </stops>
             </LinearGradient>
-         </ripplerFill></JFXButton>
+         </ripplerFill></Button>
       <ProgressBar fx:id="progressbar" layoutX="141.0" layoutY="319.0" prefHeight="26.0" prefWidth="900.0" progress="0.0" />
       <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="292.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
          <image>

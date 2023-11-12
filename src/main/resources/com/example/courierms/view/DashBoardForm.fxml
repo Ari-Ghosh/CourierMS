@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.JFXButton?>
-<?import com.jfoenix.controls.JFXDatePicker?>
-<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.Text?>
 <?import javafx.scene.Cursor?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -19,7 +17,7 @@
    <children>
       <AnchorPane layoutX="-3.0" layoutY="5.0" prefHeight="966.0" prefWidth="290.0" style="-fx-background-color: #F7FAFF;">
          <children>
-            <JFXButton alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="198.0" onAction="#dashBoardOnAction" prefHeight="55.0" prefWidth="291.0" text="DashBorad" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="198.0" onAction="#dashBoardOnAction" prefHeight="55.0" prefWidth="291.0" text="DashBorad" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -41,8 +39,8 @@
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
-            </JFXButton>
-            <JFXButton alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="253.0" onAction="#customerOnAction" prefHeight="55.0" prefWidth="291.0" ripplerFill="#5f9aff" text="Customer" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+            </Button>
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="253.0" onAction="#customerOnAction" prefHeight="55.0" prefWidth="291.0" ripplerFill="#5f9aff" text="Customer" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -56,8 +54,8 @@
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
-            </JFXButton>
-            <JFXButton alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="308.0" onAction="#ordersOnAction" prefHeight="55.0" prefWidth="291.0" ripplerFill="#5f9aff" text="Order" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+            </Button>
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="308.0" onAction="#ordersOnAction" prefHeight="55.0" prefWidth="291.0" ripplerFill="#5f9aff" text="Order" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -71,8 +69,8 @@
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
-            </JFXButton>
-            <JFXButton alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="363.0" onAction="#returnOnAction" prefHeight="55.0" prefWidth="291.0" text="Return" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+            </Button>
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="363.0" onAction="#returnOnAction" prefHeight="55.0" prefWidth="291.0" text="Return" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -94,8 +92,8 @@
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
-            </JFXButton>
-            <JFXButton alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="638.0" onAction="#reportsOnAction" prefHeight="55.0" prefWidth="291.0" text="Reports" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+            </Button>
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="638.0" onAction="#reportsOnAction" prefHeight="55.0" prefWidth="291.0" text="Reports" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -117,7 +115,7 @@
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
-            </JFXButton>
+            </Button>
             <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="21.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../assets/profile.jpg" />
@@ -132,7 +130,7 @@
                </font>
             </Label>
             <Label layoutX="95.0" layoutY="145.0" prefHeight="28.0" prefWidth="127.0" text="Admin" />
-            <JFXButton alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="21.0" layoutY="418.0" onAction="#deliveryOnAction" prefHeight="55.0" prefWidth="250.0" ripplerFill="#5f9aff" text="Delivery Infomation" textAlignment="CENTER" textFill="#777777">
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="21.0" layoutY="418.0" onAction="#deliveryOnAction" prefHeight="55.0" prefWidth="250.0" ripplerFill="#5f9aff" text="Delivery Infomation" textAlignment="CENTER" textFill="#777777">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -146,8 +144,8 @@
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
-            </JFXButton>
-            <JFXButton alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="21.0" layoutY="473.0" onAction="#trackOnAction" prefHeight="55.0" prefWidth="250.0" text="Track Order" textAlignment="CENTER" textFill="#777777">
+            </Button>
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="21.0" layoutY="473.0" onAction="#trackOnAction" prefHeight="55.0" prefWidth="250.0" text="Track Order" textAlignment="CENTER" textFill="#777777">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" opacity="0.64" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -169,8 +167,8 @@
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
-            </JFXButton>
-            <JFXButton alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="21.0" layoutY="528.0" onAction="#employeeOnAction" prefHeight="55.0" prefWidth="250.0" text="Employee" textAlignment="CENTER" textFill="#777777">
+            </Button>
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="21.0" layoutY="528.0" onAction="#employeeOnAction" prefHeight="55.0" prefWidth="250.0" text="Employee" textAlignment="CENTER" textFill="#777777">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -192,9 +190,9 @@
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
-            </JFXButton>
+            </Button>
             <Label alignment="CENTER" layoutX="21.0" layoutY="933.0" prefHeight="18.0" prefWidth="250.0" text="All Rigths Recived @2020" textAlignment="CENTER" underline="true" />
-            <JFXButton alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="583.0" onAction="#msgOnAction" prefHeight="55.0" prefWidth="250.0" text="Message" textAlignment="CENTER" textFill="#777777">
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="583.0" onAction="#msgOnAction" prefHeight="55.0" prefWidth="250.0" text="Message" textAlignment="CENTER" textFill="#777777">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -216,7 +214,7 @@
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
-            </JFXButton>
+            </Button>
          </children>
          <effect>
             <DropShadow />
@@ -259,22 +257,22 @@
             <Pane fx:id="context" layoutX="35.0" layoutY="211.0" prefHeight="640.0" prefWidth="1241.0" style="-fx-background-color: #F7FAFF; -fx-background-radius: 10PX;" />
             <Pane layoutX="35.0" layoutY="26.0" prefHeight="162.0" prefWidth="1241.0" style="-fx-background-color: #F7FAFF; -fx-background-radius: 10PX;">
                <children>
-                  <JFXTextField fx:id="txtDate" alignment="CENTER_RIGHT" editable="false" focusColor="BLACK" layoutX="1059.0" layoutY="14.0" prefHeight="25.0" prefWidth="155.0" unFocusColor="WHITE">
+                  <TextField fx:id="txtDate" alignment="CENTER_RIGHT" editable="false" style="-fx-text-fill: black;" layoutX="1059.0" layoutY="14.0" prefHeight="25.0" prefWidth="155.0">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
                      </font>
-                  </JFXTextField>
-                  <JFXTextField fx:id="txtTime" alignment="CENTER_RIGHT" editable="false" focusColor="BLACK" layoutX="1059.0" layoutY="39.0" prefHeight="25.0" prefWidth="155.0" unFocusColor="WHITE">
+                  </TextField>
+                  <TextField fx:id="txtTime" alignment="CENTER_RIGHT" editable="false" style="-fx-text-fill: black;" layoutX="1059.0" layoutY="39.0" prefHeight="25.0" prefWidth="155.0">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
                      </font>
-                  </JFXTextField>
+                  </TextField>
                   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="17.0" prefHeight="28.0" prefWidth="116.0" text="Cheack Dates">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font>
                   </Label>
-                  <JFXDatePicker layoutX="130.0" layoutY="17.0" prefHeight="28.0" prefWidth="0.0" />
+                  <DatePicker layoutX="130.0" layoutY="17.0" prefHeight="28.0" prefWidth="0.0" />
                   <Text fx:id="txtMessageArea" fill="#848484" fontSmoothingType="LCD" layoutX="250.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="700.0">
                      <font>
                         <Font name="SansSerif Italic" size="16.0" />

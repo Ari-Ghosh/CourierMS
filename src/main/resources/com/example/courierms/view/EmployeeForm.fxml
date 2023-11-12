@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.JFXButton?>
-<?import com.jfoenix.controls.JFXTextField?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.paint.LinearGradient?>
@@ -20,7 +16,7 @@
       </Label>
       <Pane layoutX="24.0" layoutY="42.0" prefHeight="167.0" prefWidth="1210.0">
          <children>
-            <JFXButton buttonType="RAISED" layoutX="653.0" layoutY="35.0" onAction="#saveOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #00ff7f;" text="Save" textFill="WHITE">
+            <Button layoutX="653.0" layoutY="35.0" onAction="#saveOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #00ff7f;  -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Save" textFill="WHITE">
                <ripplerFill>
                   <LinearGradient endX="1.0" endY="1.0">
                      <stops>
@@ -32,8 +28,8 @@
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
-            </JFXButton>
-            <JFXButton buttonType="RAISED" layoutX="653.0" layoutY="77.0" onAction="#updateOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #0088ff;" text="Update" textFill="WHITE">
+            </Button>
+            <Button layoutX="653.0" layoutY="77.0" onAction="#updateOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #0088ff;  -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Update" textFill="WHITE">
                <ripplerFill>
                   <LinearGradient endX="1.0" endY="1.0">
                      <stops>
@@ -45,8 +41,8 @@
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
-            </JFXButton>
-            <JFXButton buttonType="RAISED" layoutX="653.0" layoutY="120.0" onAction="#deleteOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #fccf03;" text="Remove" textFill="WHITE">
+            </Button>
+            <Button layoutX="653.0" layoutY="120.0" onAction="#deleteOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #fccf03;  -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Remove" textFill="WHITE">
                <ripplerFill>
                   <LinearGradient endX="1.0" endY="1.0">
                      <stops>
@@ -58,13 +54,13 @@
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
-            </JFXButton>
-            <JFXTextField fx:id="txtEID" focusColor="SPRINGGREEN" labelFloat="true" layoutX="18.0" layoutY="19.0" onAction="#eidOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Customer ID" />
-            <JFXTextField fx:id="txtFirstName" focusColor="SPRINGGREEN" labelFloat="true" layoutX="18.0" layoutY="69.0" onAction="#fNameOnAction" prefHeight="22.0" prefWidth="268.0" promptText="FirstName" />
-            <JFXTextField fx:id="txtSecondName" focusColor="SPRINGGREEN" labelFloat="true" layoutX="18.0" layoutY="129.0" onAction="#sNameOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Second Name" />
-            <JFXTextField fx:id="txtTelephoneNo" focusColor="SPRINGGREEN" labelFloat="true" layoutX="317.0" layoutY="19.0" onAction="#tpOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Telphone No" />
-            <JFXTextField fx:id="txtAddress" focusColor="SPRINGGREEN" labelFloat="true" layoutX="317.0" layoutY="71.0" onAction="#addressOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Address" />
-            <JFXTextField fx:id="txtEmail" focusColor="SPRINGGREEN" labelFloat="true" layoutX="317.0" layoutY="129.0" prefHeight="22.0" prefWidth="268.0" promptText="Email" />
+            </Button>
+            <TextField fx:id="txtEID" focusColor="SPRINGGREEN" labelFloat="true" layoutX="18.0" layoutY="19.0" onAction="#eidOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Customer ID" />
+            <TextField fx:id="txtFirstName" focusColor="SPRINGGREEN" labelFloat="true" layoutX="18.0" layoutY="69.0" onAction="#fNameOnAction" prefHeight="22.0" prefWidth="268.0" promptText="FirstName" />
+            <TextField fx:id="txtSecondName" focusColor="SPRINGGREEN" labelFloat="true" layoutX="18.0" layoutY="129.0" onAction="#sNameOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Second Name" />
+            <TextField fx:id="txtTelephoneNo" focusColor="SPRINGGREEN" labelFloat="true" layoutX="317.0" layoutY="19.0" onAction="#tpOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Telphone No" />
+            <TextField fx:id="txtAddress" focusColor="SPRINGGREEN" labelFloat="true" layoutX="317.0" layoutY="71.0" onAction="#addressOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Address" />
+            <TextField fx:id="txtEmail" focusColor="SPRINGGREEN" labelFloat="true" layoutX="317.0" layoutY="129.0" prefHeight="22.0" prefWidth="268.0" promptText="Email" />
          </children>
       </Pane>
       <Pane layoutX="24.0" layoutY="240.0" prefHeight="390.0" prefWidth="1210.0">
