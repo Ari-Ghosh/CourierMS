@@ -2,6 +2,7 @@ package com.example.courierms.main;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+//import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
@@ -10,19 +11,15 @@ import java.util.Objects;
 
 public class AppInitializer extends Application {
 
-    public static void main(String[] args) {
-
-        launch(args);
-    }
-
     @Override
     public void start(Stage primaryStage) throws IOException {
 
-        FXMLLoader fxmlLoader = new FXMLLoader(AppInitializer.class.getResource("/com/example/courierms/view/MainForm.fxml"));
-        Scene scene = new Scene(fxmlLoader.load());
-        primaryStage.setTitle("Courier Management System");
+        primaryStage.setScene(new Scene(FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/com/example/courierms/view/MainForm.fxml")))));
         primaryStage.show();
-        primaryStage.setScene(scene);
+
+    }
+
+    public static void main(String[] args) {
+        launch(args);
     }
 }
-

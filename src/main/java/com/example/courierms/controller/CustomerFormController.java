@@ -2,7 +2,7 @@ package com.example.courierms.controller;
 
 import com.example.courierms.bo.BOFactory;
 import com.example.courierms.bo.custom.CustomerBO;
-import com.jfoenix.controls.JFXTextField;
+import org.controlsfx.control.textfield.TextFields;
 import com.example.courierms.db.DBConnection;
 import com.example.courierms.dto.CustomerDTO;
 import javafx.collections.ObservableList;
@@ -30,12 +30,12 @@ public class CustomerFormController {
     public TableColumn colAddress;
     public TableColumn colEmail;
     public Label lblCID;
-    public JFXTextField txtCID;
-    public JFXTextField txtFirstName;
-    public JFXTextField txtSecondName;
-    public JFXTextField txtTelephoneNo;
-    public JFXTextField txtAddress;
-    public JFXTextField txtEmail;
+    public TextField txtCID;
+    public TextField txtFirstName;
+    public TextField txtSecondName;
+    public TextField txtTelephoneNo;
+    public TextField txtAddress;
+    public TextField txtEmail;
 
 
     CustomerBO customerBO = (CustomerBO) BOFactory.getInstance().getBO(BOFactory.BOTypes.CUSTOMER);
@@ -130,7 +130,6 @@ public class CustomerFormController {
         colTP.setCellValueFactory(new PropertyValueFactory<>("telephoneNo"));
         colAddress.setCellValueFactory(new PropertyValueFactory<>("address"));
         colEmail.setCellValueFactory(new PropertyValueFactory<>("email"));
-
 
     }
 
