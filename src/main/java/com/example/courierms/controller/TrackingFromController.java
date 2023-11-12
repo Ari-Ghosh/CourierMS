@@ -2,11 +2,9 @@ package com.example.courierms.controller;
 
 import com.example.courierms.bo.BOFactory;
 import com.example.courierms.bo.custom.DeliveryDetailsBO;
-import com.jfoenix.controls.JFXTextField;
 import com.example.courierms.dto.DeliveryDetailsDTO;
 import javafx.event.ActionEvent;
-import javafx.scene.control.Label;
-import javafx.scene.control.ProgressBar;
+import javafx.scene.control.*;
 import javafx.scene.paint.Paint;
 
 import java.sql.SQLException;
@@ -21,7 +19,7 @@ public class TrackingFromController {
     public Label lblDueDate;
     public Label lblOnAction;
     public Label lblBID;
-    public JFXTextField txtDID;
+    public TextField txtDID;
     public ProgressBar progressbar;
 
     DeliveryDetailsBO deliveryDetailsBO = (DeliveryDetailsBO) BOFactory.getInstance().getBO(BOFactory.BOTypes.DELIVERY);
@@ -53,7 +51,7 @@ public class TrackingFromController {
 
             }
         } else {
-            txtDID.setFocusColor(Paint.valueOf("red"));
+            txtDID.setStyle("-fx-border-color: red;");
             txtDID.requestFocus();
         }
         //PROGRESSBAR CONTROLLER

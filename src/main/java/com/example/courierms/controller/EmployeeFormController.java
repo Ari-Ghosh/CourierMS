@@ -2,7 +2,6 @@ package com.example.courierms.controller;
 
 import com.example.courierms.bo.BOFactory;
 import com.example.courierms.bo.custom.EmployeeBO;
-import com.jfoenix.controls.JFXTextField;
 import com.example.courierms.dto.EmployeeDTO;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -14,19 +13,18 @@ import java.sql.SQLException;
 
 public class EmployeeFormController {
 
-
     public TableColumn colEID;
     public TableColumn colFName;
     public TableColumn colSName;
     public TableColumn colTP;
     public TableColumn colAddress;
     public TableColumn colEmail;
-    public JFXTextField txtEID;
-    public JFXTextField txtFirstName;
-    public JFXTextField txtSecondName;
-    public JFXTextField txtTelephoneNo;
-    public JFXTextField txtAddress;
-    public JFXTextField txtEmail;
+    public TextField txtEID;
+    public TextField txtFirstName;
+    public TextField txtSecondName;
+    public TextField txtTelephoneNo;
+    public TextField txtAddress;
+    public TextField txtEmail;
     public TableView tblEmp;
     EmployeeBO employeeBO = (EmployeeBO) BOFactory.getInstance().getBO(BOFactory.BOTypes.EMPLOYEE);
 
@@ -38,16 +36,11 @@ public class EmployeeFormController {
         colTP.setCellValueFactory(new PropertyValueFactory<>("telephoneNo"));
         colAddress.setCellValueFactory(new PropertyValueFactory<>("Address"));
         colEmail.setCellValueFactory(new PropertyValueFactory<>("Email"));
-
-
     }
 
     public void loadAllEmployee() throws SQLException, ClassNotFoundException {
-
         ObservableList<EmployeeDTO> allCustomers = employeeBO.getAllEmployee();
         tblEmp.setItems(allCustomers);
-
-
     }
 
     public void saveOnAction(ActionEvent actionEvent) throws SQLException, ClassNotFoundException {
@@ -72,8 +65,6 @@ public class EmployeeFormController {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-
-
     }
 
     public void updateOnAction(ActionEvent actionEvent) throws SQLException, ClassNotFoundException {
@@ -98,9 +89,7 @@ public class EmployeeFormController {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-
     }
-
 
     public void deleteOnAction(ActionEvent actionEvent) throws SQLException, ClassNotFoundException {
         String eid = txtEID.getText();
@@ -117,13 +106,10 @@ public class EmployeeFormController {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-
     }
-
 
     public void txtEmailOnAction(ActionEvent actionEvent) {
     }
-
 
     public void rowOnAction(MouseEvent mouseEvent) {
         EmployeeDTO employeeDTO = (EmployeeDTO) tblEmp.getSelectionModel().getSelectedItem();
@@ -134,7 +120,6 @@ public class EmployeeFormController {
         txtAddress.setText(employeeDTO.getAddress());
         txtEmail.setText(employeeDTO.getEmail());
     }
-
 
     public void eidOnAction(ActionEvent actionEvent) {
         txtFirstName.requestFocus();
@@ -155,6 +140,4 @@ public class EmployeeFormController {
     public void addressOnAction(ActionEvent actionEvent) {
         txtEmail.requestFocus();
     }
-
-
 }

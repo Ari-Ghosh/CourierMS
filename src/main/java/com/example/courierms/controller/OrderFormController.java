@@ -3,7 +3,6 @@ package com.example.courierms.controller;
 import com.example.courierms.bo.BOFactory;
 import com.example.courierms.bo.custom.CustomerBO;
 import com.example.courierms.bo.custom.PlaceOrderBO;
-import com.jfoenix.controls.JFXComboBox;
 import com.example.courierms.db.DBConnection;
 import com.example.courierms.dto.CustomDTO;
 import com.example.courierms.dto.CustomerDTO;
@@ -24,7 +23,7 @@ import java.util.HashMap;
 import java.util.Objects;
 
 public class OrderFormController {
-    public JFXComboBox cmbCID;
+    public ComboBox<String> cmbCID;
     public TextField txtItemType;
     public TextField txtWeight;
     public TextField txtHeight;
@@ -41,8 +40,8 @@ public class OrderFormController {
     public DatePicker txtDate;
     public TextField cmbPaymentType;
     public TextField cmbOrderAction;
-    public ComboBox cmbPType;
-    public ComboBox cmbPayType;
+    public ComboBox<String> cmbPType;
+    public ComboBox<String> cmbPayType;
     public AnchorPane root;
     CustomerBO customerBO = (CustomerBO) BOFactory.getInstance().getBO(BOFactory.BOTypes.CUSTOMER);
     PlaceOrderBO placeOrderBO = (PlaceOrderBO) BOFactory.getInstance().getBO(BOFactory.BOTypes.PO);

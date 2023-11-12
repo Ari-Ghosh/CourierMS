@@ -2,7 +2,6 @@ package com.example.courierms.controller;
 
 import com.example.courierms.bo.BOFactory;
 import com.example.courierms.bo.custom.CustomerBO;
-import org.controlsfx.control.textfield.TextFields;
 import com.example.courierms.db.DBConnection;
 import com.example.courierms.dto.CustomerDTO;
 import javafx.collections.ObservableList;

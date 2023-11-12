@@ -2,27 +2,22 @@ package com.example.courierms.controller;
 
 import com.example.courierms.bo.BOFactory;
 import com.example.courierms.bo.custom.MessageBO;
-import com.jfoenix.controls.JFXTextField;
 import com.example.courierms.dto.MessageDTO;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
-import javafx.scene.control.Alert;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextArea;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 
 import java.sql.SQLException;
 
 public class MessageFormController {
-    public JFXTextField txtMsgId;
+    public TextField txtMsgId;
     public TextArea txtMessageBox;
     public TableView tblMessage;
     public TableColumn colMsgId;
     public TableColumn colMessage;
     MessageBO messageBO = (MessageBO) BOFactory.getInstance().getBO(BOFactory.BOTypes.MESSAGE);
-
 
     public void initialize() throws SQLException, ClassNotFoundException {
         loadMessages();
@@ -67,7 +62,6 @@ public class MessageFormController {
             if (isAdded) {
                 new Alert(Alert.AlertType.CONFIRMATION, "Message Posted!").show();
                 loadMessages();
-
             }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

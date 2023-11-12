@@ -2,13 +2,13 @@ package com.example.courierms.controller;
 
 import com.example.courierms.bo.BOFactory;
 import com.example.courierms.bo.custom.MessageBO;
-import com.jfoenix.controls.JFXTextField;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
@@ -26,30 +26,28 @@ import java.util.Objects;
 public class DashBoardFormController {
 
     public Pane context;
-    public JFXTextField txtDate;
-    public JFXTextField txtTime;
+    public TextField txtDate; // Replace JFXTextField with TextField
+    public TextField txtTime; // Replace JFXTextField with TextField
     public Text txtMessageArea;
     public AnchorPane dashBordRoot;
-    MessageBO messageBO= (MessageBO) BOFactory.getInstance().getBO(BOFactory.BOTypes.MESSAGE);
+    MessageBO messageBO = (MessageBO) BOFactory.getInstance().getBO(BOFactory.BOTypes.MESSAGE);
 
     public void loadDailyMessages() throws SQLException, ClassNotFoundException {
         txtMessageArea.setText(messageBO.getMessage());
-
-
     }
 
     public void initialize() throws IOException, SQLException, ClassNotFoundException {
         loadDailyMessages();
         generateDateTime();
         loadDefault();
-
     }
-    public void generateDateTime(){
+
+    public void generateDateTime() {
         txtDate.setText(LocalDate.now().toString());
-        Timeline timeline = new Timeline(new KeyFrame(Duration.ZERO, e->{
+        Timeline timeline = new Timeline(new KeyFrame(Duration.ZERO, e -> {
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("hh:mm:ss a");
             txtTime.setText(LocalDateTime.now().format(formatter));
-        }),new KeyFrame(Duration.seconds(1)));
+        }), new KeyFrame(Duration.seconds(1)));
         timeline.setCycleCount(Animation.INDEFINITE);
         timeline.play();
     }
@@ -60,9 +58,8 @@ public class DashBoardFormController {
 
     private void setUi(String location) throws IOException {
         context.getChildren().clear();
-        context.getChildren().add(FXMLLoader.
-                load(Objects.requireNonNull(this.getClass().
-                        getResource("/com/example/courierms/view/" + location + ".fxml"))));
+        context.getChildren().add(FXMLLoader.load(Objects.requireNonNull(this.getClass()
+                .getResource("/com/example/courierms/view/" + location + ".fxml"))));
     }
 
     public void dashBoardOnAction(ActionEvent actionEvent) throws IOException {
@@ -100,12 +97,11 @@ public class DashBoardFormController {
     public void msgOnAction(ActionEvent actionEvent) throws IOException {
         setUi("MessageForm");
     }
+
     public void logOutOnAction(MouseEvent mouseEvent) throws IOException {
         Stage window = (Stage) this.dashBordRoot.getScene().getWindow();
         window.setScene(new Scene(FXMLLoader.load(Objects.requireNonNull(this.getClass()
                 .getResource("/com/example/courierms/view/MainForm.fxml")))));
         window.centerOnScreen();
     }
-
-
 }
