@@ -17,14 +17,6 @@
          <children>
             <TextField fx:id="txtOID" layoutX="14.0" layoutY="25.0" prefHeight="25.0" prefWidth="170.0" promptText="Bill ID" />
             <Button layoutX="14.0" layoutY="192.0" onAction="#reportOnAction" prefHeight="38.0" prefWidth="170.0" style="-fx-background-color: #0088ff; -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Report" textFill="WHITE">
-               <ripplerFill>
-                  <LinearGradient endX="1.0" endY="1.0">
-                     <stops>
-                        <Stop color="BLACK" />
-                        <Stop color="WHITE" offset="1.0" />
-                     </stops>
-                  </LinearGradient>
-               </ripplerFill>
                <font>
                   <Font name="SansSerif Bold" size="14.0" />
                </font>

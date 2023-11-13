@@ -1,46 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.net.*?>
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.text.Text?>
-<?import javafx.scene.Cursor?>
-<?import javafx.scene.effect.DropShadow?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.paint.LinearGradient?>
-<?import javafx.scene.paint.Stop?>
-<?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane fx:id="dashBordRoot" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courierms.controller.DashBoardFormController">
+<AnchorPane fx:id="dashBordRoot" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courierms.controller.DashBoardFormController">
+   <stylesheets>
+      <URL value="@../css/styles.css" />
+   </stylesheets>
    <children>
       <AnchorPane layoutX="-3.0" layoutY="5.0" prefHeight="966.0" prefWidth="290.0" style="-fx-background-color: #F7FAFF;">
          <children>
-            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="198.0" onAction="#dashBoardOnAction" prefHeight="55.0" prefWidth="291.0" text="DashBorad" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="363.0" onAction="#returnOnAction" prefHeight="55.0" prefWidth="291.0" styleClass="custom-button" text="Return" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../assets/icons8-contact-details-100.png" />
+                        <Image url="@../assets/icons8-u-turn-to-left-100.png" />
                      </image>
                   </ImageView>
                </graphic>
                <font>
                   <Font name="SansSerif Regular" size="15.0" />
                </font>
-               <ripplerFill>
-                  <LinearGradient endX="1.0" endY="1.0">
-                     <stops>
-                        <Stop color="#5f9aff" />
-                        <Stop color="WHITE" offset="1.0" />
-                     </stops>
-                  </LinearGradient>
-               </ripplerFill>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="253.0" onAction="#customerOnAction" prefHeight="55.0" prefWidth="291.0" ripplerFill="#5f9aff" text="Customer" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="253.0" onAction="#customerOnAction" prefHeight="55.0" prefWidth="271.0" styleClass="custom-button" text="Customer" textAlignment="CENTER" textFill="#2f2d2d">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -55,7 +45,8 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="308.0" onAction="#ordersOnAction" prefHeight="55.0" prefWidth="291.0" ripplerFill="#5f9aff" text="Order" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="308.0" onAction="#ordersOnAction" prefHeight="55.0" prefWidth="271.0" styleClass="custom-button" text="Order" textAlignment="CENTER" textFill="#2f2d2d">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -70,7 +61,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="363.0" onAction="#returnOnAction" prefHeight="55.0" prefWidth="291.0" text="Return" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="363.0" onAction="#returnOnAction" prefHeight="55.0" prefWidth="271.0" styleClass="custom-button" text="Return" textAlignment="CENTER" textFill="#2f2d2d" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="1.0">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -81,19 +72,11 @@
                <font>
                   <Font name="SansSerif Regular" size="15.0" />
                </font>
-               <ripplerFill>
-                  <LinearGradient endX="1.0" endY="1.0">
-                     <stops>
-                        <Stop color="#5f9aff" />
-                        <Stop color="WHITE" offset="1.0" />
-                     </stops>
-                  </LinearGradient>
-               </ripplerFill>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="638.0" onAction="#reportsOnAction" prefHeight="55.0" prefWidth="291.0" text="Reports" textAlignment="CENTER" textFill="#777777" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="638.0" onAction="#reportsOnAction" prefHeight="55.0" prefWidth="271.0" styleClass="custom-button" text="Reports" textAlignment="CENTER" textFill="#2f2d2d" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="1.0">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -104,14 +87,6 @@
                <font>
                   <Font name="SansSerif Regular" size="15.0" />
                </font>
-               <ripplerFill>
-                  <LinearGradient endX="1.0" endY="1.0">
-                     <stops>
-                        <Stop color="#5f9aff" />
-                        <Stop color="WHITE" offset="1.0" />
-                     </stops>
-                  </LinearGradient>
-               </ripplerFill>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -124,13 +99,13 @@
                   <DropShadow />
                </effect>
             </ImageView>
-            <Label layoutX="94.0" layoutY="117.0" prefHeight="34.0" prefWidth="142.0" text="Udara San">
+            <Label layoutX="94.0" layoutY="117.0" prefHeight="34.0" prefWidth="142.0" text="Ari-Ghosh">
                <font>
                   <Font name="SansSerif Regular" size="20.0" />
                </font>
             </Label>
             <Label layoutX="95.0" layoutY="145.0" prefHeight="28.0" prefWidth="127.0" text="Admin" />
-            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="21.0" layoutY="418.0" onAction="#deliveryOnAction" prefHeight="55.0" prefWidth="250.0" ripplerFill="#5f9aff" text="Delivery Infomation" textAlignment="CENTER" textFill="#777777">
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="21.0" layoutY="418.0" onAction="#deliveryOnAction" prefHeight="55.0" prefWidth="271.0" styleClass="custom-button" text="Delivery Information" textAlignment="CENTER" textFill="#2f2d2d">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -145,7 +120,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="21.0" layoutY="473.0" onAction="#trackOnAction" prefHeight="55.0" prefWidth="250.0" text="Track Order" textAlignment="CENTER" textFill="#777777">
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="21.0" layoutY="473.0" onAction="#trackOnAction" prefHeight="55.0" prefWidth="271.0" styleClass="custom-button" text="Track Order" textAlignment="CENTER" textFill="#2f2d2d">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" opacity="0.64" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -156,19 +131,11 @@
                <font>
                   <Font name="SansSerif Regular" size="15.0" />
                </font>
-               <ripplerFill>
-                  <LinearGradient endX="1.0" endY="1.0">
-                     <stops>
-                        <Stop color="#5f9aff" />
-                        <Stop color="WHITE" offset="1.0" />
-                     </stops>
-                  </LinearGradient>
-               </ripplerFill>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="21.0" layoutY="528.0" onAction="#employeeOnAction" prefHeight="55.0" prefWidth="250.0" text="Employee" textAlignment="CENTER" textFill="#777777">
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="21.0" layoutY="528.0" onAction="#employeeOnAction" prefHeight="55.0" prefWidth="271.0" styleClass="custom-button" text="Employee" textAlignment="CENTER" textFill="#2f2d2d">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -179,20 +146,12 @@
                <font>
                   <Font name="SansSerif Regular" size="15.0" />
                </font>
-               <ripplerFill>
-                  <LinearGradient endX="1.0" endY="1.0">
-                     <stops>
-                        <Stop color="#5f9aff" />
-                        <Stop color="WHITE" offset="1.0" />
-                     </stops>
-                  </LinearGradient>
-               </ripplerFill>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
             <Label alignment="CENTER" layoutX="21.0" layoutY="933.0" prefHeight="18.0" prefWidth="250.0" text="All Rigths Recived @2020" textAlignment="CENTER" underline="true" />
-            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="583.0" onAction="#msgOnAction" prefHeight="55.0" prefWidth="250.0" text="Message" textAlignment="CENTER" textFill="#777777">
+            <Button alignment="TOP_LEFT" graphicTextGap="15.0" layoutX="20.0" layoutY="583.0" onAction="#msgOnAction" prefHeight="55.0" prefWidth="271.0" styleClass="custom-button" text="Message" textAlignment="CENTER" textFill="#2f2d2d">
                <graphic>
                   <ImageView fitHeight="45.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -203,14 +162,6 @@
                <font>
                   <Font name="SansSerif Regular" size="15.0" />
                </font>
-               <ripplerFill>
-                  <LinearGradient endX="1.0" endY="1.0">
-                     <stops>
-                        <Stop color="#5f9aff" />
-                        <Stop color="WHITE" offset="1.0" />
-                     </stops>
-                  </LinearGradient>
-               </ripplerFill>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -244,7 +195,7 @@
                   <Image url="@../assets/0.png" />
                </image>
             </ImageView>
-            <Label layoutX="74.0" layoutY="19.0" prefHeight="42.0" prefWidth="208.0" text="DeliverMe(PVT)Ltd">
+            <Label layoutX="74.0" layoutY="19.0" prefHeight="42.0" prefWidth="208.0" text="PickNDrop(PVT)Ltd">
                <font>
                   <Font name="Lato Black" size="21.0" />
                </font>
@@ -257,17 +208,17 @@
             <Pane fx:id="context" layoutX="35.0" layoutY="211.0" prefHeight="640.0" prefWidth="1241.0" style="-fx-background-color: #F7FAFF; -fx-background-radius: 10PX;" />
             <Pane layoutX="35.0" layoutY="26.0" prefHeight="162.0" prefWidth="1241.0" style="-fx-background-color: #F7FAFF; -fx-background-radius: 10PX;">
                <children>
-                  <TextField fx:id="txtDate" alignment="CENTER_RIGHT" editable="false" style="-fx-text-fill: black;" layoutX="1059.0" layoutY="14.0" prefHeight="25.0" prefWidth="155.0">
+                  <TextField fx:id="txtDate" alignment="CENTER_RIGHT" editable="false" layoutX="1059.0" layoutY="14.0" prefHeight="25.0" prefWidth="155.0" style="-fx-text-fill: black;">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
                      </font>
                   </TextField>
-                  <TextField fx:id="txtTime" alignment="CENTER_RIGHT" editable="false" style="-fx-text-fill: black;" layoutX="1059.0" layoutY="39.0" prefHeight="25.0" prefWidth="155.0">
+                  <TextField fx:id="txtTime" alignment="CENTER_RIGHT" editable="false" layoutX="1059.0" layoutY="39.0" prefHeight="25.0" prefWidth="155.0" style="-fx-text-fill: black;">
                      <font>
                         <Font name="SansSerif Bold" size="18.0" />
                      </font>
                   </TextField>
-                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="17.0" prefHeight="28.0" prefWidth="116.0" text="Cheack Dates">
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="17.0" prefHeight="28.0" prefWidth="116.0" text="Check Dates">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font>
