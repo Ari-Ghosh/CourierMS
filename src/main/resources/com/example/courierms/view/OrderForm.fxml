@@ -39,13 +39,13 @@
                   <Font name="SansSerif Bold" size="14.0" />
                </font>
             </Label>
-            <Button layoutX="369.0" layoutY="251.0" onAction="#calculateRateOnAction" prefHeight="38.0" prefWidth="143.0" ripplerFill="#c5e5ff" style="-fx-background-color: #00ff7f; -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Calculate Rate" textFill="WHITE">
+            <Button layoutX="369.0" layoutY="251.0" onAction="#calculateRateOnAction" prefHeight="38.0" prefWidth="143.0" style="-fx-background-color: #00ff7f; -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Calculate Rate" textFill="WHITE">
                <font>
                   <Font name="SansSerif Bold" size="14.0" />
                </font>
             </Button>
             <TextField fx:id="txtCustomerName" layoutX="178.0" layoutY="72.0" prefHeight="32.0" prefWidth="143.0" promptText="Customer Name" />
-            <Button layoutX="369.0" layoutY="69.0" onAction="#newCustomerOnAction" prefHeight="38.0" prefWidth="143.0" ripplerFill="#c5e5ff" style="-fx-background-color: #0088ff; -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="New Customer" textFill="WHITE">
+            <Button layoutX="369.0" layoutY="69.0" onAction="#newCustomerOnAction" prefHeight="38.0" prefWidth="143.0" style="-fx-background-color: #0088ff; -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="New Customer" textFill="WHITE">
                <font>
                   <Font name="SansSerif Bold" size="14.0" />
                </font>
@@ -71,12 +71,12 @@
             <TextField fx:id="txtSecondName" layoutX="34.0" layoutY="174.0" prefHeight="32.0" prefWidth="173.0" promptText="Second Name" />
          </children>
       </Pane>
-      <Button layoutX="1012.0" layoutY="569.0" onAction="#placeOrderOnAction" prefHeight="48.0" prefWidth="182.0" ripplerFill="#c5e5ff" style="-fx-background-color: #00ff7f; -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Place Order" textFill="WHITE">
+      <Button layoutX="1012.0" layoutY="569.0" onAction="#placeOrderOnAction" prefHeight="48.0" prefWidth="182.0" style="-fx-background-color: #00ff7f; -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Place Order" textFill="WHITE">
          <font>
             <Font name="SansSerif Bold" size="14.0" />
          </font>
       </Button>
-      <Button layoutX="917.0" layoutY="568.0" prefHeight="48.0" prefWidth="74.0" ripplerFill="#c5e5ff" style="-fx-background-color: #0088ff; -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Clear" textFill="WHITE">
+      <Button layoutX="917.0" layoutY="568.0" prefHeight="48.0" prefWidth="74.0" style="-fx-background-color: #0088ff; -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Clear" textFill="WHITE">
          <font>
             <Font name="SansSerif Bold" size="14.0" />
          </font>

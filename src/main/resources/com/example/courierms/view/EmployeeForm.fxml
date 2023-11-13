@@ -17,40 +17,16 @@
       <Pane layoutX="24.0" layoutY="42.0" prefHeight="167.0" prefWidth="1210.0">
          <children>
             <Button layoutX="653.0" layoutY="35.0" onAction="#saveOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #00ff7f;  -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Save" textFill="WHITE">
-               <ripplerFill>
-                  <LinearGradient endX="1.0" endY="1.0">
-                     <stops>
-                        <Stop color="#63b9ff" />
-                        <Stop color="#c5e5ff" offset="1.0" />
-                     </stops>
-                  </LinearGradient>
-               </ripplerFill>
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
             <Button layoutX="653.0" layoutY="77.0" onAction="#updateOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #0088ff;  -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Update" textFill="WHITE">
-               <ripplerFill>
-                  <LinearGradient endX="1.0" endY="1.0">
-                     <stops>
-                        <Stop color="#63b9ff" />
-                        <Stop color="#c5e5ff" offset="1.0" />
-                     </stops>
-                  </LinearGradient>
-               </ripplerFill>
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Button>
             <Button layoutX="653.0" layoutY="120.0" onAction="#deleteOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #fccf03;  -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Remove" textFill="WHITE">
-               <ripplerFill>
-                  <LinearGradient endX="1.0" endY="1.0">
-                     <stops>
-                        <Stop color="#63b9ff" />
-                        <Stop color="#c5e5ff" offset="1.0" />
-                     </stops>
-                  </LinearGradient>
-               </ripplerFill>
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>

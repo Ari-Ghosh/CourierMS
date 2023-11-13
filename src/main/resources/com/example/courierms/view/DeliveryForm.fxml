@@ -22,14 +22,6 @@
                <font>
                   <Font name="SansSerif Bold" size="14.0" />
                </font>
-               <ripplerFill>
-                  <LinearGradient endX="1.0" endY="1.0">
-                     <stops>
-                        <Stop color="BLACK" />
-                        <Stop color="#c5e5ff" offset="1.0" />
-                     </stops>
-                  </LinearGradient>
-               </ripplerFill>
             </Button>
             <Label fx:id="lblDID" layoutX="952.0" layoutY="12.0" prefHeight="22.0" prefWidth="60.0" text="DID">
                <font>
