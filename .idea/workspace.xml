@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CourierMS:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2fb3baf-b85f-42d8-8a90-210e953e7c75" name="Changes" comment="View Changes">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms db design.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmsdb.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/CustomerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/CustomerForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/DashBoardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/DashBoardForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/DeliveryForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/DeliveryForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/EmployeeForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/EmployeeForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/OrderForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/OrderForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/ReturnForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/ReturnForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/TrackingFrom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/courierms/view/TrackingFrom.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/db/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/db/DBConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +50,12 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev/views&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CODES/COLLEGE PROJECTS/CourierMS/lib/javafx-sdk-21.0.1/lib&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CODES/COLLEGE PROJECTS/CourierMS/lib/javafx-sdk-21.0.1/bin/vcruntime140_1.dll&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.32413793&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
