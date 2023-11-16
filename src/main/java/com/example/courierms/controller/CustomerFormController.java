@@ -58,6 +58,7 @@ public class CustomerFormController {
                 loadAllCustomer();
             } catch (Exception e) {
                 new Alert(Alert.AlertType.ERROR, "Customer Added Not Successful!", ButtonType.OK).show();
+                System.out.println(e);
             }
 
         //} else {

@@ -37,7 +37,7 @@ public class BillDetailsDAOImpl implements BillDetailsDAO {
 
     @Override
     public int getNoBills() throws ClassNotFoundException, SQLException {
-        String SQL = "SELECT COUNT(bid) FROM billDetails";
+        String SQL = "SELECT COUNT(bid) FROM BillDetails";
         ResultSet rst = CrudUtil.executeQuery(SQL);
         if (rst.next()) {
             return rst.getInt(1);

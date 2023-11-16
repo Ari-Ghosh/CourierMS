@@ -34,7 +34,7 @@ public class ReturnDAOImpl implements ReturnDAO {
 
     @Override
     public ObservableList<ReturnDetails> getAll() throws ClassNotFoundException, SQLException {
-        String SQL = "SELECT * FROM Returndetails";
+        String SQL = "SELECT * FROM ReturnDetails";
         ResultSet rst = CrudUtil.executeQuery(SQL);
         ObservableList<ReturnDetails>all = FXCollections.observableArrayList();
         while (rst.next()){
@@ -45,7 +45,7 @@ public class ReturnDAOImpl implements ReturnDAO {
 
     @Override
     public int getNoOfReturn() throws ClassNotFoundException, SQLException {
-        String SQL = "SELECT COUNT(rid) FROM Returndetails";
+        String SQL = "SELECT COUNT(rid) FROM ReturnDetails";
         ResultSet rst = CrudUtil.executeQuery(SQL);
         if (rst.next()){
             return rst.getInt(1);
@@ -65,7 +65,7 @@ public class ReturnDAOImpl implements ReturnDAO {
 
     @Override
     public int getMonthlyReturnCount() throws ClassNotFoundException, SQLException {
-        String sql="SELECT COUNT(RID) FROM Returndetails WHERE returnDate BETWEEN '2020-10-01' AND '2020-10-30';";
+        String sql="SELECT COUNT(RID) FROM ReturnDetails WHERE returnDate BETWEEN '2020-10-01' AND '2020-10-30';";
         ResultSet rst=CrudUtil.executeQuery(sql);
         if (rst.next()){
             return rst.getInt(1);

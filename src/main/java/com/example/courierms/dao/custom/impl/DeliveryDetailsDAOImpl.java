@@ -58,7 +58,7 @@ public class DeliveryDetailsDAOImpl implements DeliveryDetailsDAO {
 
     @Override
     public int getNoOfDeliveries() throws ClassNotFoundException, SQLException {
-        String SQL = "SELECT COUNT(did) FROM deliveryDetails";
+        String SQL = "SELECT COUNT(did) FROM DeliveryDetails";
         ResultSet rst = CrudUtil.executeQuery(SQL);
         if (rst.next()){
             return rst.getInt(1);

@@ -18,7 +18,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 
     @Override
     public boolean delete(String id) throws ClassNotFoundException, SQLException {
-        String sql="delete from employee where eid=?";
+        String sql="delete from Employee where eid=?";
         return CrudUtil.executeUpdate(sql,id);
     }
 
@@ -35,7 +35,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 
     @Override
     public ObservableList<Employee> getAll() throws ClassNotFoundException, SQLException {
-        String sql="select * from employee";
+        String sql="select * from Employee";
         ResultSet rst=CrudUtil.executeQuery(sql);
         ObservableList<Employee>all = FXCollections.observableArrayList();
         while (rst.next()){

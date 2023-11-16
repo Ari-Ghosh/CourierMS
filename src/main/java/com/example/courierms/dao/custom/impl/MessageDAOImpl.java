@@ -13,7 +13,7 @@ import java.sql.SQLException;
 public class MessageDAOImpl implements MessageDAO {
     @Override
     public boolean add(Message message) throws ClassNotFoundException, SQLException {
-        String sql = "INSERT INTO MessageBOX VALUES(?,?)";
+        String sql = "INSERT INTO MessageBox VALUES(?,?)";
         return CrudUtil.executeUpdate(sql,message.getMID(),message.getMessage());
     }
 
@@ -35,7 +35,7 @@ public class MessageDAOImpl implements MessageDAO {
 
     @Override
     public ObservableList<Message> getAll() throws ClassNotFoundException, SQLException {
-        String SQL = "SELECT * FROM messagebox";
+        String SQL = "SELECT * FROM MessageBox";
         ResultSet rst = CrudUtil.executeQuery(SQL);
         ObservableList<Message>all = FXCollections.observableArrayList();
         while (rst.next()){
@@ -56,7 +56,7 @@ public class MessageDAOImpl implements MessageDAO {
 
     @Override
     public int getNoMessages() throws ClassNotFoundException, SQLException {
-        String SQL = "SELECT COUNT(msgID) FROM messageBox";
+        String SQL = "SELECT COUNT(msgID) FROM MessageBox";
         ResultSet rst = CrudUtil.executeQuery(SQL);
         if (rst.next()) {
             return rst.getInt(1);

@@ -13,7 +13,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 
     @Override
     public boolean add(Customer c) throws ClassNotFoundException,SQLException {
-        String sql = "INSERT INTO CUSTOMER VALUES(?,?,?,?,?,?)";
+        String sql = "INSERT INTO Customer VALUES(?,?,?,?,?,?)";
         return CrudUtil.executeUpdate(sql, c.getCid(), c.getFirstName(), c.getSecondName(), c.getTelephoneNo(), c.getAddress(), c.getEmail());
     }
 
